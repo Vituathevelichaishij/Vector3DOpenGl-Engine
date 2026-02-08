@@ -1,0 +1,26 @@
+
+
+gameObjects:
+  - name: "camera"
+    transformation:
+      rotation: [0,0,0]
+      position: [0,0,0]
+    prefab: "prefab/player.yaml"
+
+
+
+
+
+
+
+  - name: "Map"
+    transformation:
+      rotation: [0,0,0]
+      position: [0,0,10]
+      size: [1,1,1]
+      light: false
+    prefab: "prefab/map.yaml"
+    .obj: "obj/color_cube.obj"
+    texture: "textures/color_cube.png"
+
+
