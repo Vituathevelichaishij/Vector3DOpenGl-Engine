@@ -102,7 +102,7 @@ visualinfo_EXTERNAL_OBJECTS =
 bin/visualinfo.exe: glew/build/cmake/CMakeFiles/visualinfo.dir/__/__/src/visualinfo.c.obj
 bin/visualinfo.exe: glew/build/cmake/CMakeFiles/visualinfo.dir/__/visualinfo.rc.obj
 bin/visualinfo.exe: glew/build/cmake/CMakeFiles/visualinfo.dir/build.make
-bin/visualinfo.exe: lib/libglew32d.dll.a
+bin/visualinfo.exe: lib/libglew32.dll.a
 bin/visualinfo.exe: glew/build/cmake/CMakeFiles/visualinfo.dir/linkLibs.rsp
 bin/visualinfo.exe: glew/build/cmake/CMakeFiles/visualinfo.dir/objects1.rsp
 bin/visualinfo.exe: glew/build/cmake/CMakeFiles/visualinfo.dir/link.txt

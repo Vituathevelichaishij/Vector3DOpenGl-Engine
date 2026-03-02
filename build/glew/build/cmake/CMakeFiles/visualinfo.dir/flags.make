@@ -7,7 +7,7 @@ C_DEFINES = -DGLEW_NO_GLU
 
 C_INCLUDES = @CMakeFiles/visualinfo.dir/includes_C.rsp
 
-C_FLAGS = -g
+C_FLAGS = -O3 -DNDEBUG
 
 RC_DEFINES = -DGLEW_NO_GLU
 

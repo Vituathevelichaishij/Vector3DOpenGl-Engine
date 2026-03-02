@@ -102,7 +102,7 @@ glewinfo_EXTERNAL_OBJECTS =
 bin/glewinfo.exe: glew/build/cmake/CMakeFiles/glewinfo.dir/__/__/src/glewinfo.c.obj
 bin/glewinfo.exe: glew/build/cmake/CMakeFiles/glewinfo.dir/__/glewinfo.rc.obj
 bin/glewinfo.exe: glew/build/cmake/CMakeFiles/glewinfo.dir/build.make
-bin/glewinfo.exe: lib/libglew32d.dll.a
+bin/glewinfo.exe: lib/libglew32.dll.a
 bin/glewinfo.exe: glew/build/cmake/CMakeFiles/glewinfo.dir/linkLibs.rsp
 bin/glewinfo.exe: glew/build/cmake/CMakeFiles/glewinfo.dir/objects1.rsp
 bin/glewinfo.exe: glew/build/cmake/CMakeFiles/glewinfo.dir/link.txt

@@ -15,12 +15,11 @@ gameObjects:
 
   - name: "Map"
     transformation:
-      rotation: [0,0,0]
-      position: [0,0,10]
+      rotation: [0,180,0]
+      position: [0,0,200]
       size: [1,1,1]
       light: false
     prefab: "prefab/map.yaml"
-    .obj: "obj/color_cube.obj"
-    texture: "textures/color_cube.png"
-
+    .obj: "obj/rusty.obj"
+    texture: "textures/rusty.png"
 

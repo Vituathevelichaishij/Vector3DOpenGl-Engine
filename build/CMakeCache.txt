@@ -333,6 +333,36 @@ CTEST_SUBMIT_RETRY_DELAY:STRING=5
 //Maximum time allowed before CTest will kill the test.
 DART_TESTING_TIMEOUT:STRING=1500
 
+//Directory under which to collect all populated content
+FETCHCONTENT_BASE_DIR:PATH=D:/Codes/CPP/git/Engine - Copy/build/_deps
+
+//Disables all attempts to download or update content and assumes
+// source dirs already exist
+FETCHCONTENT_FULLY_DISCONNECTED:BOOL=OFF
+
+//Enables QUIET option for all content population
+FETCHCONTENT_QUIET:BOOL=ON
+
+//When not empty, overrides where to find pre-populated content
+// for glm
+FETCHCONTENT_SOURCE_DIR_GLM:PATH=
+
+//Enables UPDATE_DISCONNECTED behavior for all content population
+FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of glm
+FETCHCONTENT_UPDATES_DISCONNECTED_GLM:BOOL=OFF
+
+//Git command line client
+GIT_EXECUTABLE:FILEPATH=D:/Git/cmd/git.exe
+
+//Directory containing glad generator CMakeLists.txt. Must be absolute.
+GLAD_CMAKE_DIR:STRING=D:/Codes/CPP/git/Engine - Copy/glad-2.0.8/cmake
+
+//Directory containing glad sources (python modules), used as working
+// directory. Must be absolute.
+GLAD_SOURCES_DIR:STRING=D:/Codes/CPP/git/Engine - Copy/glad-2.0.8/cmake/../
+
 //The directory containing a CMake configuration file for GLEW.
 GLEW_DIR:PATH=GLEW_DIR-NOTFOUND
 
@@ -362,6 +392,63 @@ GLEW_STATIC_LIBRARY_RELEASE:FILEPATH=GLEW_STATIC_LIBRARY_RELEASE-NOTFOUND
 
 //X11 mode
 GLEW_X11:BOOL=ON
+
+//Generate the install target
+GLM_BUILD_INSTALL:BOOL=OFF
+
+//Build dynamic/static library
+GLM_BUILD_LIBRARY:BOOL=ON
+
+//Build the test programs
+GLM_BUILD_TESTS:BOOL=OFF
+
+//Disable platform, compiler, arch and C++ language detection
+GLM_DISABLE_AUTO_DETECTION:BOOL=OFF
+
+//Enable C++ 11
+GLM_ENABLE_CXX_11:BOOL=OFF
+
+//Enable C++ 14
+GLM_ENABLE_CXX_14:BOOL=OFF
+
+//Enable C++ 17
+GLM_ENABLE_CXX_17:BOOL=OFF
+
+//Enable C++ 20
+GLM_ENABLE_CXX_20:BOOL=OFF
+
+//Enable C++ 98
+GLM_ENABLE_CXX_98:BOOL=OFF
+
+//Enable fast math optimizations
+GLM_ENABLE_FAST_MATH:BOOL=OFF
+
+//Enable language extensions
+GLM_ENABLE_LANG_EXTENSIONS:BOOL=OFF
+
+//Enable AVX optimizations
+GLM_ENABLE_SIMD_AVX:BOOL=OFF
+
+//Enable AVX2 optimizations
+GLM_ENABLE_SIMD_AVX2:BOOL=OFF
+
+//Enable SSE2 optimizations
+GLM_ENABLE_SIMD_SSE2:BOOL=OFF
+
+//Enable SSE3 optimizations
+GLM_ENABLE_SIMD_SSE3:BOOL=OFF
+
+//Enable SSE 4.1 optimizations
+GLM_ENABLE_SIMD_SSE4_1:BOOL=OFF
+
+//Enable SSE 4.2 optimizations
+GLM_ENABLE_SIMD_SSE4_2:BOOL=OFF
+
+//Enable SSSE3 optimizations
+GLM_ENABLE_SIMD_SSSE3:BOOL=OFF
+
+//Force 'pure' instructions
+GLM_FORCE_PURE:BOOL=OFF
 
 //Value Computed by CMake
 Intro_BINARY_DIR:STATIC=D:/Codes/CPP/git/Engine - Copy/build
@@ -421,6 +508,15 @@ YAML_CPP_SOURCE_DIR:STATIC=D:/Codes/CPP/git/Engine - Copy/yaml-cpp-0.8.0
 YAML_MSVC_SHARED_RT:BOOL=ON
 
 //Value Computed by CMake
+glad_BINARY_DIR:STATIC=D:/Codes/CPP/git/Engine - Copy/build/glad-2.0.8/cmake
+
+//Value Computed by CMake
+glad_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+glad_SOURCE_DIR:STATIC=D:/Codes/CPP/git/Engine - Copy/glad-2.0.8/cmake
+
+//Value Computed by CMake
 glew_BINARY_DIR:STATIC=D:/Codes/CPP/git/Engine - Copy/build/glew/build/cmake
 
 //Value Computed by CMake
@@ -428,6 +524,15 @@ glew_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 glew_SOURCE_DIR:STATIC=D:/Codes/CPP/git/Engine - Copy/glew/build/cmake
+
+//Value Computed by CMake
+glm_BINARY_DIR:STATIC=D:/Codes/CPP/git/Engine - Copy/build/_deps/glm-build
+
+//Value Computed by CMake
+glm_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+glm_SOURCE_DIR:STATIC=D:/Codes/CPP/git/Engine - Copy/build/_deps/glm-src
 
 
 ########################
@@ -572,7 +677,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -640,6 +745,10 @@ CTEST_SUBMIT_RETRY_DELAY-ADVANCED:INTERNAL=1
 DART_TESTING_TIMEOUT-ADVANCED:INTERNAL=1
 //Details about finding OpenGL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[opengl32][ ][v()]
+//ADVANCED property for variable: GIT_EXECUTABLE
+GIT_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GLAD_CMAKE_DIR
+GLAD_CMAKE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: GLEW_INCLUDE_DIR
 GLEW_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: GLEW_SHARED_LIBRARY_DEBUG

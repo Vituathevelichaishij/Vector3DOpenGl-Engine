@@ -7,7 +7,7 @@ C_DEFINES = -DGLEW_BUILD -DGLEW_NO_GLU -Dglew_EXPORTS
 
 C_INCLUDES = @CMakeFiles/glew.dir/includes_C.rsp
 
-C_FLAGS = -g -fno-builtin -fno-stack-protector
+C_FLAGS = -O3 -DNDEBUG -fno-builtin -fno-stack-protector
 
 RC_DEFINES = -DGLEW_BUILD -DGLEW_NO_GLU -Dglew_EXPORTS
 

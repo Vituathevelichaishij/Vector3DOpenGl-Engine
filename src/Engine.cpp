@@ -26,7 +26,7 @@ void Engine::start(){
         for(auto& o : m_scene.m_objects){
             o.second->update(m_timer.getTicks()-lastUpdate);
         }
-        //std::cout<<countedFrames /  (m_timer.getTicks() / 1000.f) <<std::endl; 
+        std::cout<<countedFrames /  (m_timer.getTicks() / 1000.f) <<std::endl; 
         lastUpdate=m_timer.getTicks();
         
         ++countedFrames;

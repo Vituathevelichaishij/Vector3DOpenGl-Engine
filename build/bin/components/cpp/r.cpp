@@ -8,12 +8,7 @@ void register_r()
 
 void r::update(Uint32 dT)
 {   
-    Vector3D a={20,0,0};
-    Vector3D angles={0,0,0};
-    float speed=0.003;
-    angles.m_y=angles.m_y+speed*dT;
-    a.rotate(angles);
-    owner->m_transform.m_position=a;
+    owner->m_transform.m_rotation=owner->m_transform.m_rotation+Vector3D(0,10,0);
 }
 
 

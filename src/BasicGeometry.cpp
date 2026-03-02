@@ -175,7 +175,7 @@ Matrix4x4 getRotMatrix(Vector3D const& vec){
     float const dZ=vec.m_z;
     Matrix4x4 rotX  = {{
         { 1,  0,                 0,                0 },
-        { 0,  std::cosf(dX*f),  -std::sinf(dX*f),  0 },
+        { 0,  std::cosf(dX*f),  std::sinf(dX*f),  0 },
         { 0,  std::sinf(dX*f),   std::cosf(dX*f),  0 },
         { 0,  0,                 0,                1 }
     }};
@@ -335,3 +335,9 @@ Vector3D vectorXplainIntersec(Vector3D const& planeP,Vector3D const& N,Vector3D 
 
 
 
+Matrix4x4 getIdentMatrix(){
+    return {{{1,0,0,0},
+            {0,1,0,0},
+            {0,0,1,0},
+            {0,0,0,1}}};
+}

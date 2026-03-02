@@ -681,6 +681,19 @@ visualinfo/fast:
 	$(MAKE) $(MAKESILENT) -f glew\build\cmake\CMakeFiles\visualinfo.dir\build.make glew/build/cmake/CMakeFiles/visualinfo.dir/build
 .PHONY : visualinfo/fast
 
+#=============================================================================
+# Target rules for targets named glm
+
+# Build rule for target.
+glm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 glm
+.PHONY : glm
+
+# fast build rule for target.
+glm/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\glm-build\glm\CMakeFiles\glm.dir\build.make _deps/glm-build/glm/CMakeFiles/glm.dir/build
+.PHONY : glm/fast
+
 bin/components/cpp/Camera3D.obj: bin/components/cpp/Camera3D.cpp.obj
 .PHONY : bin/components/cpp/Camera3D.obj
 
@@ -1231,6 +1244,7 @@ help:
 	@echo ... glew
 	@echo ... glew_s
 	@echo ... glewinfo
+	@echo ... glm
 	@echo ... program
 	@echo ... visualinfo
 	@echo ... yaml-cpp

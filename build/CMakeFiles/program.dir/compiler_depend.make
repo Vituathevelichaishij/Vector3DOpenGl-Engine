@@ -3199,6 +3199,7 @@ CMakeFiles/program.dir/src/Engine.cpp.obj: D:/Codes/CPP/git/Engine\ -\ Copy/src/
   C:/msys64/ucrt64/include/_mingw_stat64.h \
   C:/msys64/ucrt64/include/_mingw_stdarg.h \
   C:/msys64/ucrt64/include/_timeval.h \
+  C:/msys64/ucrt64/include/assert.h \
   C:/msys64/ucrt64/include/c++/14.2.0/algorithm \
   C:/msys64/ucrt64/include/c++/14.2.0/array \
   C:/msys64/ucrt64/include/c++/14.2.0/atomic \
@@ -3309,13 +3310,17 @@ CMakeFiles/program.dir/src/Engine.cpp.obj: D:/Codes/CPP/git/Engine\ -\ Copy/src/
   C:/msys64/ucrt64/include/c++/14.2.0/bits/valarray_before.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/vector.tcc \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/cassert \
   C:/msys64/ucrt64/include/c++/14.2.0/cctype \
   C:/msys64/ucrt64/include/c++/14.2.0/cerrno \
+  C:/msys64/ucrt64/include/c++/14.2.0/cfloat \
+  C:/msys64/ucrt64/include/c++/14.2.0/climits \
   C:/msys64/ucrt64/include/c++/14.2.0/clocale \
   C:/msys64/ucrt64/include/c++/14.2.0/cmath \
   C:/msys64/ucrt64/include/c++/14.2.0/compare \
   C:/msys64/ucrt64/include/c++/14.2.0/concepts \
   C:/msys64/ucrt64/include/c++/14.2.0/cstddef \
+  C:/msys64/ucrt64/include/c++/14.2.0/cstdint \
   C:/msys64/ucrt64/include/c++/14.2.0/cstdio \
   C:/msys64/ucrt64/include/c++/14.2.0/cstdlib \
   C:/msys64/ucrt64/include/c++/14.2.0/cwchar \
@@ -3395,6 +3400,7 @@ CMakeFiles/program.dir/src/Engine.cpp.obj: D:/Codes/CPP/git/Engine\ -\ Copy/src/
   C:/msys64/ucrt64/include/crtdefs.h \
   C:/msys64/ucrt64/include/ctype.h \
   C:/msys64/ucrt64/include/errno.h \
+  C:/msys64/ucrt64/include/float.h \
   C:/msys64/ucrt64/include/intrin.h \
   C:/msys64/ucrt64/include/inttypes.h \
   C:/msys64/ucrt64/include/limits.h \
@@ -3485,6 +3491,7 @@ CMakeFiles/program.dir/src/Engine.cpp.obj: D:/Codes/CPP/git/Engine\ -\ Copy/src/
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/emmintrin.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/enqcmdintrin.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/f16cintrin.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/float.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fma4intrin.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fmaintrin.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fxsrintrin.h \
@@ -3541,6 +3548,153 @@ CMakeFiles/program.dir/src/Engine.cpp.obj: D:/Codes/CPP/git/Engine\ -\ Copy/src/
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveoptintrin.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavesintrin.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xtestintrin.h \
+  _deps/glm-src/glm/common.hpp \
+  _deps/glm-src/glm/detail/_fixes.hpp \
+  _deps/glm-src/glm/detail/_vectorize.hpp \
+  _deps/glm-src/glm/detail/compute_common.hpp \
+  _deps/glm-src/glm/detail/compute_vector_relational.hpp \
+  _deps/glm-src/glm/detail/func_common.inl \
+  _deps/glm-src/glm/detail/func_exponential.inl \
+  _deps/glm-src/glm/detail/func_geometric.inl \
+  _deps/glm-src/glm/detail/func_integer.inl \
+  _deps/glm-src/glm/detail/func_matrix.inl \
+  _deps/glm-src/glm/detail/func_packing.inl \
+  _deps/glm-src/glm/detail/func_trigonometric.inl \
+  _deps/glm-src/glm/detail/func_vector_relational.inl \
+  _deps/glm-src/glm/detail/qualifier.hpp \
+  _deps/glm-src/glm/detail/setup.hpp \
+  _deps/glm-src/glm/detail/type_half.hpp \
+  _deps/glm-src/glm/detail/type_half.inl \
+  _deps/glm-src/glm/detail/type_mat2x2.hpp \
+  _deps/glm-src/glm/detail/type_mat2x2.inl \
+  _deps/glm-src/glm/detail/type_mat2x3.hpp \
+  _deps/glm-src/glm/detail/type_mat2x3.inl \
+  _deps/glm-src/glm/detail/type_mat2x4.hpp \
+  _deps/glm-src/glm/detail/type_mat2x4.inl \
+  _deps/glm-src/glm/detail/type_mat3x2.hpp \
+  _deps/glm-src/glm/detail/type_mat3x2.inl \
+  _deps/glm-src/glm/detail/type_mat3x3.hpp \
+  _deps/glm-src/glm/detail/type_mat3x3.inl \
+  _deps/glm-src/glm/detail/type_mat3x4.hpp \
+  _deps/glm-src/glm/detail/type_mat3x4.inl \
+  _deps/glm-src/glm/detail/type_mat4x2.hpp \
+  _deps/glm-src/glm/detail/type_mat4x2.inl \
+  _deps/glm-src/glm/detail/type_mat4x3.hpp \
+  _deps/glm-src/glm/detail/type_mat4x3.inl \
+  _deps/glm-src/glm/detail/type_mat4x4.hpp \
+  _deps/glm-src/glm/detail/type_mat4x4.inl \
+  _deps/glm-src/glm/detail/type_vec1.hpp \
+  _deps/glm-src/glm/detail/type_vec1.inl \
+  _deps/glm-src/glm/detail/type_vec2.hpp \
+  _deps/glm-src/glm/detail/type_vec2.inl \
+  _deps/glm-src/glm/detail/type_vec3.hpp \
+  _deps/glm-src/glm/detail/type_vec3.inl \
+  _deps/glm-src/glm/detail/type_vec4.hpp \
+  _deps/glm-src/glm/detail/type_vec4.inl \
+  _deps/glm-src/glm/exponential.hpp \
+  _deps/glm-src/glm/ext/matrix_clip_space.hpp \
+  _deps/glm-src/glm/ext/matrix_clip_space.inl \
+  _deps/glm-src/glm/ext/matrix_double2x2.hpp \
+  _deps/glm-src/glm/ext/matrix_double2x2_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_double2x3.hpp \
+  _deps/glm-src/glm/ext/matrix_double2x3_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_double2x4.hpp \
+  _deps/glm-src/glm/ext/matrix_double2x4_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_double3x2.hpp \
+  _deps/glm-src/glm/ext/matrix_double3x2_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_double3x3.hpp \
+  _deps/glm-src/glm/ext/matrix_double3x3_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_double3x4.hpp \
+  _deps/glm-src/glm/ext/matrix_double3x4_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_double4x2.hpp \
+  _deps/glm-src/glm/ext/matrix_double4x2_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_double4x3.hpp \
+  _deps/glm-src/glm/ext/matrix_double4x3_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_double4x4.hpp \
+  _deps/glm-src/glm/ext/matrix_double4x4_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float2x2.hpp \
+  _deps/glm-src/glm/ext/matrix_float2x2_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float2x3.hpp \
+  _deps/glm-src/glm/ext/matrix_float2x3_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float2x4.hpp \
+  _deps/glm-src/glm/ext/matrix_float2x4_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float3x2.hpp \
+  _deps/glm-src/glm/ext/matrix_float3x2_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float3x3.hpp \
+  _deps/glm-src/glm/ext/matrix_float3x3_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float3x4.hpp \
+  _deps/glm-src/glm/ext/matrix_float3x4_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float4x2.hpp \
+  _deps/glm-src/glm/ext/matrix_float4x2_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float4x3.hpp \
+  _deps/glm-src/glm/ext/matrix_float4x3_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float4x4.hpp \
+  _deps/glm-src/glm/ext/matrix_float4x4_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_projection.hpp \
+  _deps/glm-src/glm/ext/matrix_projection.inl \
+  _deps/glm-src/glm/ext/matrix_transform.hpp \
+  _deps/glm-src/glm/ext/matrix_transform.inl \
+  _deps/glm-src/glm/ext/scalar_constants.hpp \
+  _deps/glm-src/glm/ext/scalar_constants.inl \
+  _deps/glm-src/glm/ext/scalar_int_sized.hpp \
+  _deps/glm-src/glm/ext/scalar_uint_sized.hpp \
+  _deps/glm-src/glm/ext/vector_bool2.hpp \
+  _deps/glm-src/glm/ext/vector_bool2_precision.hpp \
+  _deps/glm-src/glm/ext/vector_bool3.hpp \
+  _deps/glm-src/glm/ext/vector_bool3_precision.hpp \
+  _deps/glm-src/glm/ext/vector_bool4.hpp \
+  _deps/glm-src/glm/ext/vector_bool4_precision.hpp \
+  _deps/glm-src/glm/ext/vector_double2.hpp \
+  _deps/glm-src/glm/ext/vector_double2_precision.hpp \
+  _deps/glm-src/glm/ext/vector_double3.hpp \
+  _deps/glm-src/glm/ext/vector_double3_precision.hpp \
+  _deps/glm-src/glm/ext/vector_double4.hpp \
+  _deps/glm-src/glm/ext/vector_double4_precision.hpp \
+  _deps/glm-src/glm/ext/vector_float2.hpp \
+  _deps/glm-src/glm/ext/vector_float2_precision.hpp \
+  _deps/glm-src/glm/ext/vector_float3.hpp \
+  _deps/glm-src/glm/ext/vector_float3_precision.hpp \
+  _deps/glm-src/glm/ext/vector_float4.hpp \
+  _deps/glm-src/glm/ext/vector_float4_precision.hpp \
+  _deps/glm-src/glm/ext/vector_int2.hpp \
+  _deps/glm-src/glm/ext/vector_int2_sized.hpp \
+  _deps/glm-src/glm/ext/vector_int3.hpp \
+  _deps/glm-src/glm/ext/vector_int3_sized.hpp \
+  _deps/glm-src/glm/ext/vector_int4.hpp \
+  _deps/glm-src/glm/ext/vector_int4_sized.hpp \
+  _deps/glm-src/glm/ext/vector_uint2.hpp \
+  _deps/glm-src/glm/ext/vector_uint2_sized.hpp \
+  _deps/glm-src/glm/ext/vector_uint3.hpp \
+  _deps/glm-src/glm/ext/vector_uint3_sized.hpp \
+  _deps/glm-src/glm/ext/vector_uint4.hpp \
+  _deps/glm-src/glm/ext/vector_uint4_sized.hpp \
+  _deps/glm-src/glm/fwd.hpp \
+  _deps/glm-src/glm/geometric.hpp \
+  _deps/glm-src/glm/glm.hpp \
+  _deps/glm-src/glm/gtc/constants.hpp \
+  _deps/glm-src/glm/gtc/constants.inl \
+  _deps/glm-src/glm/gtc/matrix_transform.hpp \
+  _deps/glm-src/glm/gtc/matrix_transform.inl \
+  _deps/glm-src/glm/gtx/transform.hpp \
+  _deps/glm-src/glm/gtx/transform.inl \
+  _deps/glm-src/glm/integer.hpp \
+  _deps/glm-src/glm/mat2x2.hpp \
+  _deps/glm-src/glm/mat2x3.hpp \
+  _deps/glm-src/glm/mat2x4.hpp \
+  _deps/glm-src/glm/mat3x2.hpp \
+  _deps/glm-src/glm/mat3x3.hpp \
+  _deps/glm-src/glm/mat3x4.hpp \
+  _deps/glm-src/glm/mat4x2.hpp \
+  _deps/glm-src/glm/mat4x3.hpp \
+  _deps/glm-src/glm/mat4x4.hpp \
+  _deps/glm-src/glm/matrix.hpp \
+  _deps/glm-src/glm/packing.hpp \
+  _deps/glm-src/glm/simd/platform.h \
+  _deps/glm-src/glm/trigonometric.hpp \
+  _deps/glm-src/glm/vec2.hpp \
+  _deps/glm-src/glm/vec3.hpp \
+  _deps/glm-src/glm/vec4.hpp \
+  _deps/glm-src/glm/vector_relational.hpp \
   D:/Codes/CPP/git/Engine\ -\ Copy/glew/include/GL/glew.h \
   D:/Codes/CPP/git/Engine\ -\ Copy/include/BasicGeometry.h \
   D:/Codes/CPP/git/Engine\ -\ Copy/include/Component.h \
@@ -4409,6 +4563,7 @@ CMakeFiles/program.dir/src/Renderer.cpp.obj: D:/Codes/CPP/git/Engine\ -\ Copy/sr
   C:/msys64/ucrt64/include/_mingw_stat64.h \
   C:/msys64/ucrt64/include/_mingw_stdarg.h \
   C:/msys64/ucrt64/include/_timeval.h \
+  C:/msys64/ucrt64/include/assert.h \
   C:/msys64/ucrt64/include/c++/14.2.0/algorithm \
   C:/msys64/ucrt64/include/c++/14.2.0/array \
   C:/msys64/ucrt64/include/c++/14.2.0/atomic \
@@ -4428,6 +4583,7 @@ CMakeFiles/program.dir/src/Renderer.cpp.obj: D:/Codes/CPP/git/Engine\ -\ Copy/sr
   C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.tcc \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/char_traits.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/charconv.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/codecvt.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/concept_check.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/cpp_type_traits.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/cxxabi_forced.h \
@@ -4438,6 +4594,7 @@ CMakeFiles/program.dir/src/Renderer.cpp.obj: D:/Codes/CPP/git/Engine\ -\ Copy/sr
   C:/msys64/ucrt64/include/c++/14.2.0/bits/exception.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_defines.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/exception_ptr.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/bits/fstream.tcc \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/functexcept.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/functional_hash.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/gslice.h \
@@ -4518,13 +4675,17 @@ CMakeFiles/program.dir/src/Renderer.cpp.obj: D:/Codes/CPP/git/Engine\ -\ Copy/sr
   C:/msys64/ucrt64/include/c++/14.2.0/bits/valarray_before.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/vector.tcc \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/cassert \
   C:/msys64/ucrt64/include/c++/14.2.0/cctype \
   C:/msys64/ucrt64/include/c++/14.2.0/cerrno \
+  C:/msys64/ucrt64/include/c++/14.2.0/cfloat \
+  C:/msys64/ucrt64/include/c++/14.2.0/climits \
   C:/msys64/ucrt64/include/c++/14.2.0/clocale \
   C:/msys64/ucrt64/include/c++/14.2.0/cmath \
   C:/msys64/ucrt64/include/c++/14.2.0/compare \
   C:/msys64/ucrt64/include/c++/14.2.0/concepts \
   C:/msys64/ucrt64/include/c++/14.2.0/cstddef \
+  C:/msys64/ucrt64/include/c++/14.2.0/cstdint \
   C:/msys64/ucrt64/include/c++/14.2.0/cstdio \
   C:/msys64/ucrt64/include/c++/14.2.0/cstdlib \
   C:/msys64/ucrt64/include/c++/14.2.0/cwchar \
@@ -4540,6 +4701,7 @@ CMakeFiles/program.dir/src/Renderer.cpp.obj: D:/Codes/CPP/git/Engine\ -\ Copy/sr
   C:/msys64/ucrt64/include/c++/14.2.0/ext/numeric_traits.h \
   C:/msys64/ucrt64/include/c++/14.2.0/ext/string_conversions.h \
   C:/msys64/ucrt64/include/c++/14.2.0/ext/type_traits.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/fstream \
   C:/msys64/ucrt64/include/c++/14.2.0/functional \
   C:/msys64/ucrt64/include/c++/14.2.0/initializer_list \
   C:/msys64/ucrt64/include/c++/14.2.0/ios \
@@ -4586,8 +4748,10 @@ CMakeFiles/program.dir/src/Renderer.cpp.obj: D:/Codes/CPP/git/Engine\ -\ Copy/sr
   C:/msys64/ucrt64/include/c++/14.2.0/valarray \
   C:/msys64/ucrt64/include/c++/14.2.0/vector \
   C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/basic_file.h \
   C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
   C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++io.h \
   C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++locale.h \
   C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
   C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
@@ -4751,6 +4915,153 @@ CMakeFiles/program.dir/src/Renderer.cpp.obj: D:/Codes/CPP/git/Engine\ -\ Copy/sr
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveoptintrin.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavesintrin.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xtestintrin.h \
+  _deps/glm-src/glm/common.hpp \
+  _deps/glm-src/glm/detail/_fixes.hpp \
+  _deps/glm-src/glm/detail/_vectorize.hpp \
+  _deps/glm-src/glm/detail/compute_common.hpp \
+  _deps/glm-src/glm/detail/compute_vector_relational.hpp \
+  _deps/glm-src/glm/detail/func_common.inl \
+  _deps/glm-src/glm/detail/func_exponential.inl \
+  _deps/glm-src/glm/detail/func_geometric.inl \
+  _deps/glm-src/glm/detail/func_integer.inl \
+  _deps/glm-src/glm/detail/func_matrix.inl \
+  _deps/glm-src/glm/detail/func_packing.inl \
+  _deps/glm-src/glm/detail/func_trigonometric.inl \
+  _deps/glm-src/glm/detail/func_vector_relational.inl \
+  _deps/glm-src/glm/detail/qualifier.hpp \
+  _deps/glm-src/glm/detail/setup.hpp \
+  _deps/glm-src/glm/detail/type_half.hpp \
+  _deps/glm-src/glm/detail/type_half.inl \
+  _deps/glm-src/glm/detail/type_mat2x2.hpp \
+  _deps/glm-src/glm/detail/type_mat2x2.inl \
+  _deps/glm-src/glm/detail/type_mat2x3.hpp \
+  _deps/glm-src/glm/detail/type_mat2x3.inl \
+  _deps/glm-src/glm/detail/type_mat2x4.hpp \
+  _deps/glm-src/glm/detail/type_mat2x4.inl \
+  _deps/glm-src/glm/detail/type_mat3x2.hpp \
+  _deps/glm-src/glm/detail/type_mat3x2.inl \
+  _deps/glm-src/glm/detail/type_mat3x3.hpp \
+  _deps/glm-src/glm/detail/type_mat3x3.inl \
+  _deps/glm-src/glm/detail/type_mat3x4.hpp \
+  _deps/glm-src/glm/detail/type_mat3x4.inl \
+  _deps/glm-src/glm/detail/type_mat4x2.hpp \
+  _deps/glm-src/glm/detail/type_mat4x2.inl \
+  _deps/glm-src/glm/detail/type_mat4x3.hpp \
+  _deps/glm-src/glm/detail/type_mat4x3.inl \
+  _deps/glm-src/glm/detail/type_mat4x4.hpp \
+  _deps/glm-src/glm/detail/type_mat4x4.inl \
+  _deps/glm-src/glm/detail/type_vec1.hpp \
+  _deps/glm-src/glm/detail/type_vec1.inl \
+  _deps/glm-src/glm/detail/type_vec2.hpp \
+  _deps/glm-src/glm/detail/type_vec2.inl \
+  _deps/glm-src/glm/detail/type_vec3.hpp \
+  _deps/glm-src/glm/detail/type_vec3.inl \
+  _deps/glm-src/glm/detail/type_vec4.hpp \
+  _deps/glm-src/glm/detail/type_vec4.inl \
+  _deps/glm-src/glm/exponential.hpp \
+  _deps/glm-src/glm/ext/matrix_clip_space.hpp \
+  _deps/glm-src/glm/ext/matrix_clip_space.inl \
+  _deps/glm-src/glm/ext/matrix_double2x2.hpp \
+  _deps/glm-src/glm/ext/matrix_double2x2_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_double2x3.hpp \
+  _deps/glm-src/glm/ext/matrix_double2x3_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_double2x4.hpp \
+  _deps/glm-src/glm/ext/matrix_double2x4_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_double3x2.hpp \
+  _deps/glm-src/glm/ext/matrix_double3x2_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_double3x3.hpp \
+  _deps/glm-src/glm/ext/matrix_double3x3_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_double3x4.hpp \
+  _deps/glm-src/glm/ext/matrix_double3x4_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_double4x2.hpp \
+  _deps/glm-src/glm/ext/matrix_double4x2_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_double4x3.hpp \
+  _deps/glm-src/glm/ext/matrix_double4x3_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_double4x4.hpp \
+  _deps/glm-src/glm/ext/matrix_double4x4_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float2x2.hpp \
+  _deps/glm-src/glm/ext/matrix_float2x2_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float2x3.hpp \
+  _deps/glm-src/glm/ext/matrix_float2x3_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float2x4.hpp \
+  _deps/glm-src/glm/ext/matrix_float2x4_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float3x2.hpp \
+  _deps/glm-src/glm/ext/matrix_float3x2_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float3x3.hpp \
+  _deps/glm-src/glm/ext/matrix_float3x3_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float3x4.hpp \
+  _deps/glm-src/glm/ext/matrix_float3x4_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float4x2.hpp \
+  _deps/glm-src/glm/ext/matrix_float4x2_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float4x3.hpp \
+  _deps/glm-src/glm/ext/matrix_float4x3_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float4x4.hpp \
+  _deps/glm-src/glm/ext/matrix_float4x4_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_projection.hpp \
+  _deps/glm-src/glm/ext/matrix_projection.inl \
+  _deps/glm-src/glm/ext/matrix_transform.hpp \
+  _deps/glm-src/glm/ext/matrix_transform.inl \
+  _deps/glm-src/glm/ext/scalar_constants.hpp \
+  _deps/glm-src/glm/ext/scalar_constants.inl \
+  _deps/glm-src/glm/ext/scalar_int_sized.hpp \
+  _deps/glm-src/glm/ext/scalar_uint_sized.hpp \
+  _deps/glm-src/glm/ext/vector_bool2.hpp \
+  _deps/glm-src/glm/ext/vector_bool2_precision.hpp \
+  _deps/glm-src/glm/ext/vector_bool3.hpp \
+  _deps/glm-src/glm/ext/vector_bool3_precision.hpp \
+  _deps/glm-src/glm/ext/vector_bool4.hpp \
+  _deps/glm-src/glm/ext/vector_bool4_precision.hpp \
+  _deps/glm-src/glm/ext/vector_double2.hpp \
+  _deps/glm-src/glm/ext/vector_double2_precision.hpp \
+  _deps/glm-src/glm/ext/vector_double3.hpp \
+  _deps/glm-src/glm/ext/vector_double3_precision.hpp \
+  _deps/glm-src/glm/ext/vector_double4.hpp \
+  _deps/glm-src/glm/ext/vector_double4_precision.hpp \
+  _deps/glm-src/glm/ext/vector_float2.hpp \
+  _deps/glm-src/glm/ext/vector_float2_precision.hpp \
+  _deps/glm-src/glm/ext/vector_float3.hpp \
+  _deps/glm-src/glm/ext/vector_float3_precision.hpp \
+  _deps/glm-src/glm/ext/vector_float4.hpp \
+  _deps/glm-src/glm/ext/vector_float4_precision.hpp \
+  _deps/glm-src/glm/ext/vector_int2.hpp \
+  _deps/glm-src/glm/ext/vector_int2_sized.hpp \
+  _deps/glm-src/glm/ext/vector_int3.hpp \
+  _deps/glm-src/glm/ext/vector_int3_sized.hpp \
+  _deps/glm-src/glm/ext/vector_int4.hpp \
+  _deps/glm-src/glm/ext/vector_int4_sized.hpp \
+  _deps/glm-src/glm/ext/vector_uint2.hpp \
+  _deps/glm-src/glm/ext/vector_uint2_sized.hpp \
+  _deps/glm-src/glm/ext/vector_uint3.hpp \
+  _deps/glm-src/glm/ext/vector_uint3_sized.hpp \
+  _deps/glm-src/glm/ext/vector_uint4.hpp \
+  _deps/glm-src/glm/ext/vector_uint4_sized.hpp \
+  _deps/glm-src/glm/fwd.hpp \
+  _deps/glm-src/glm/geometric.hpp \
+  _deps/glm-src/glm/glm.hpp \
+  _deps/glm-src/glm/gtc/constants.hpp \
+  _deps/glm-src/glm/gtc/constants.inl \
+  _deps/glm-src/glm/gtc/matrix_transform.hpp \
+  _deps/glm-src/glm/gtc/matrix_transform.inl \
+  _deps/glm-src/glm/gtx/transform.hpp \
+  _deps/glm-src/glm/gtx/transform.inl \
+  _deps/glm-src/glm/integer.hpp \
+  _deps/glm-src/glm/mat2x2.hpp \
+  _deps/glm-src/glm/mat2x3.hpp \
+  _deps/glm-src/glm/mat2x4.hpp \
+  _deps/glm-src/glm/mat3x2.hpp \
+  _deps/glm-src/glm/mat3x3.hpp \
+  _deps/glm-src/glm/mat3x4.hpp \
+  _deps/glm-src/glm/mat4x2.hpp \
+  _deps/glm-src/glm/mat4x3.hpp \
+  _deps/glm-src/glm/mat4x4.hpp \
+  _deps/glm-src/glm/matrix.hpp \
+  _deps/glm-src/glm/packing.hpp \
+  _deps/glm-src/glm/simd/platform.h \
+  _deps/glm-src/glm/trigonometric.hpp \
+  _deps/glm-src/glm/vec2.hpp \
+  _deps/glm-src/glm/vec3.hpp \
+  _deps/glm-src/glm/vec4.hpp \
+  _deps/glm-src/glm/vector_relational.hpp \
   D:/Codes/CPP/git/Engine\ -\ Copy/glew/include/GL/glew.h \
   D:/Codes/CPP/git/Engine\ -\ Copy/include/BasicGeometry.h \
   D:/Codes/CPP/git/Engine\ -\ Copy/include/Camera.h \
@@ -6409,6 +6720,7 @@ CMakeFiles/program.dir/src/main.cpp.obj: D:/Codes/CPP/git/Engine\ -\ Copy/src/ma
   C:/msys64/ucrt64/include/_mingw_stat64.h \
   C:/msys64/ucrt64/include/_mingw_stdarg.h \
   C:/msys64/ucrt64/include/_timeval.h \
+  C:/msys64/ucrt64/include/assert.h \
   C:/msys64/ucrt64/include/c++/14.2.0/algorithm \
   C:/msys64/ucrt64/include/c++/14.2.0/array \
   C:/msys64/ucrt64/include/c++/14.2.0/atomic \
@@ -6518,13 +6830,17 @@ CMakeFiles/program.dir/src/main.cpp.obj: D:/Codes/CPP/git/Engine\ -\ Copy/src/ma
   C:/msys64/ucrt64/include/c++/14.2.0/bits/valarray_before.h \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/vector.tcc \
   C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h \
+  C:/msys64/ucrt64/include/c++/14.2.0/cassert \
   C:/msys64/ucrt64/include/c++/14.2.0/cctype \
   C:/msys64/ucrt64/include/c++/14.2.0/cerrno \
+  C:/msys64/ucrt64/include/c++/14.2.0/cfloat \
+  C:/msys64/ucrt64/include/c++/14.2.0/climits \
   C:/msys64/ucrt64/include/c++/14.2.0/clocale \
   C:/msys64/ucrt64/include/c++/14.2.0/cmath \
   C:/msys64/ucrt64/include/c++/14.2.0/compare \
   C:/msys64/ucrt64/include/c++/14.2.0/concepts \
   C:/msys64/ucrt64/include/c++/14.2.0/cstddef \
+  C:/msys64/ucrt64/include/c++/14.2.0/cstdint \
   C:/msys64/ucrt64/include/c++/14.2.0/cstdio \
   C:/msys64/ucrt64/include/c++/14.2.0/cstdlib \
   C:/msys64/ucrt64/include/c++/14.2.0/cwchar \
@@ -6603,6 +6919,7 @@ CMakeFiles/program.dir/src/main.cpp.obj: D:/Codes/CPP/git/Engine\ -\ Copy/src/ma
   C:/msys64/ucrt64/include/crtdefs.h \
   C:/msys64/ucrt64/include/ctype.h \
   C:/msys64/ucrt64/include/errno.h \
+  C:/msys64/ucrt64/include/float.h \
   C:/msys64/ucrt64/include/intrin.h \
   C:/msys64/ucrt64/include/inttypes.h \
   C:/msys64/ucrt64/include/limits.h \
@@ -6693,6 +7010,7 @@ CMakeFiles/program.dir/src/main.cpp.obj: D:/Codes/CPP/git/Engine\ -\ Copy/src/ma
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/emmintrin.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/enqcmdintrin.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/f16cintrin.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/float.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fma4intrin.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fmaintrin.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fxsrintrin.h \
@@ -6749,6 +7067,153 @@ CMakeFiles/program.dir/src/main.cpp.obj: D:/Codes/CPP/git/Engine\ -\ Copy/src/ma
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveoptintrin.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavesintrin.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xtestintrin.h \
+  _deps/glm-src/glm/common.hpp \
+  _deps/glm-src/glm/detail/_fixes.hpp \
+  _deps/glm-src/glm/detail/_vectorize.hpp \
+  _deps/glm-src/glm/detail/compute_common.hpp \
+  _deps/glm-src/glm/detail/compute_vector_relational.hpp \
+  _deps/glm-src/glm/detail/func_common.inl \
+  _deps/glm-src/glm/detail/func_exponential.inl \
+  _deps/glm-src/glm/detail/func_geometric.inl \
+  _deps/glm-src/glm/detail/func_integer.inl \
+  _deps/glm-src/glm/detail/func_matrix.inl \
+  _deps/glm-src/glm/detail/func_packing.inl \
+  _deps/glm-src/glm/detail/func_trigonometric.inl \
+  _deps/glm-src/glm/detail/func_vector_relational.inl \
+  _deps/glm-src/glm/detail/qualifier.hpp \
+  _deps/glm-src/glm/detail/setup.hpp \
+  _deps/glm-src/glm/detail/type_half.hpp \
+  _deps/glm-src/glm/detail/type_half.inl \
+  _deps/glm-src/glm/detail/type_mat2x2.hpp \
+  _deps/glm-src/glm/detail/type_mat2x2.inl \
+  _deps/glm-src/glm/detail/type_mat2x3.hpp \
+  _deps/glm-src/glm/detail/type_mat2x3.inl \
+  _deps/glm-src/glm/detail/type_mat2x4.hpp \
+  _deps/glm-src/glm/detail/type_mat2x4.inl \
+  _deps/glm-src/glm/detail/type_mat3x2.hpp \
+  _deps/glm-src/glm/detail/type_mat3x2.inl \
+  _deps/glm-src/glm/detail/type_mat3x3.hpp \
+  _deps/glm-src/glm/detail/type_mat3x3.inl \
+  _deps/glm-src/glm/detail/type_mat3x4.hpp \
+  _deps/glm-src/glm/detail/type_mat3x4.inl \
+  _deps/glm-src/glm/detail/type_mat4x2.hpp \
+  _deps/glm-src/glm/detail/type_mat4x2.inl \
+  _deps/glm-src/glm/detail/type_mat4x3.hpp \
+  _deps/glm-src/glm/detail/type_mat4x3.inl \
+  _deps/glm-src/glm/detail/type_mat4x4.hpp \
+  _deps/glm-src/glm/detail/type_mat4x4.inl \
+  _deps/glm-src/glm/detail/type_vec1.hpp \
+  _deps/glm-src/glm/detail/type_vec1.inl \
+  _deps/glm-src/glm/detail/type_vec2.hpp \
+  _deps/glm-src/glm/detail/type_vec2.inl \
+  _deps/glm-src/glm/detail/type_vec3.hpp \
+  _deps/glm-src/glm/detail/type_vec3.inl \
+  _deps/glm-src/glm/detail/type_vec4.hpp \
+  _deps/glm-src/glm/detail/type_vec4.inl \
+  _deps/glm-src/glm/exponential.hpp \
+  _deps/glm-src/glm/ext/matrix_clip_space.hpp \
+  _deps/glm-src/glm/ext/matrix_clip_space.inl \
+  _deps/glm-src/glm/ext/matrix_double2x2.hpp \
+  _deps/glm-src/glm/ext/matrix_double2x2_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_double2x3.hpp \
+  _deps/glm-src/glm/ext/matrix_double2x3_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_double2x4.hpp \
+  _deps/glm-src/glm/ext/matrix_double2x4_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_double3x2.hpp \
+  _deps/glm-src/glm/ext/matrix_double3x2_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_double3x3.hpp \
+  _deps/glm-src/glm/ext/matrix_double3x3_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_double3x4.hpp \
+  _deps/glm-src/glm/ext/matrix_double3x4_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_double4x2.hpp \
+  _deps/glm-src/glm/ext/matrix_double4x2_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_double4x3.hpp \
+  _deps/glm-src/glm/ext/matrix_double4x3_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_double4x4.hpp \
+  _deps/glm-src/glm/ext/matrix_double4x4_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float2x2.hpp \
+  _deps/glm-src/glm/ext/matrix_float2x2_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float2x3.hpp \
+  _deps/glm-src/glm/ext/matrix_float2x3_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float2x4.hpp \
+  _deps/glm-src/glm/ext/matrix_float2x4_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float3x2.hpp \
+  _deps/glm-src/glm/ext/matrix_float3x2_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float3x3.hpp \
+  _deps/glm-src/glm/ext/matrix_float3x3_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float3x4.hpp \
+  _deps/glm-src/glm/ext/matrix_float3x4_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float4x2.hpp \
+  _deps/glm-src/glm/ext/matrix_float4x2_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float4x3.hpp \
+  _deps/glm-src/glm/ext/matrix_float4x3_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_float4x4.hpp \
+  _deps/glm-src/glm/ext/matrix_float4x4_precision.hpp \
+  _deps/glm-src/glm/ext/matrix_projection.hpp \
+  _deps/glm-src/glm/ext/matrix_projection.inl \
+  _deps/glm-src/glm/ext/matrix_transform.hpp \
+  _deps/glm-src/glm/ext/matrix_transform.inl \
+  _deps/glm-src/glm/ext/scalar_constants.hpp \
+  _deps/glm-src/glm/ext/scalar_constants.inl \
+  _deps/glm-src/glm/ext/scalar_int_sized.hpp \
+  _deps/glm-src/glm/ext/scalar_uint_sized.hpp \
+  _deps/glm-src/glm/ext/vector_bool2.hpp \
+  _deps/glm-src/glm/ext/vector_bool2_precision.hpp \
+  _deps/glm-src/glm/ext/vector_bool3.hpp \
+  _deps/glm-src/glm/ext/vector_bool3_precision.hpp \
+  _deps/glm-src/glm/ext/vector_bool4.hpp \
+  _deps/glm-src/glm/ext/vector_bool4_precision.hpp \
+  _deps/glm-src/glm/ext/vector_double2.hpp \
+  _deps/glm-src/glm/ext/vector_double2_precision.hpp \
+  _deps/glm-src/glm/ext/vector_double3.hpp \
+  _deps/glm-src/glm/ext/vector_double3_precision.hpp \
+  _deps/glm-src/glm/ext/vector_double4.hpp \
+  _deps/glm-src/glm/ext/vector_double4_precision.hpp \
+  _deps/glm-src/glm/ext/vector_float2.hpp \
+  _deps/glm-src/glm/ext/vector_float2_precision.hpp \
+  _deps/glm-src/glm/ext/vector_float3.hpp \
+  _deps/glm-src/glm/ext/vector_float3_precision.hpp \
+  _deps/glm-src/glm/ext/vector_float4.hpp \
+  _deps/glm-src/glm/ext/vector_float4_precision.hpp \
+  _deps/glm-src/glm/ext/vector_int2.hpp \
+  _deps/glm-src/glm/ext/vector_int2_sized.hpp \
+  _deps/glm-src/glm/ext/vector_int3.hpp \
+  _deps/glm-src/glm/ext/vector_int3_sized.hpp \
+  _deps/glm-src/glm/ext/vector_int4.hpp \
+  _deps/glm-src/glm/ext/vector_int4_sized.hpp \
+  _deps/glm-src/glm/ext/vector_uint2.hpp \
+  _deps/glm-src/glm/ext/vector_uint2_sized.hpp \
+  _deps/glm-src/glm/ext/vector_uint3.hpp \
+  _deps/glm-src/glm/ext/vector_uint3_sized.hpp \
+  _deps/glm-src/glm/ext/vector_uint4.hpp \
+  _deps/glm-src/glm/ext/vector_uint4_sized.hpp \
+  _deps/glm-src/glm/fwd.hpp \
+  _deps/glm-src/glm/geometric.hpp \
+  _deps/glm-src/glm/glm.hpp \
+  _deps/glm-src/glm/gtc/constants.hpp \
+  _deps/glm-src/glm/gtc/constants.inl \
+  _deps/glm-src/glm/gtc/matrix_transform.hpp \
+  _deps/glm-src/glm/gtc/matrix_transform.inl \
+  _deps/glm-src/glm/gtx/transform.hpp \
+  _deps/glm-src/glm/gtx/transform.inl \
+  _deps/glm-src/glm/integer.hpp \
+  _deps/glm-src/glm/mat2x2.hpp \
+  _deps/glm-src/glm/mat2x3.hpp \
+  _deps/glm-src/glm/mat2x4.hpp \
+  _deps/glm-src/glm/mat3x2.hpp \
+  _deps/glm-src/glm/mat3x3.hpp \
+  _deps/glm-src/glm/mat3x4.hpp \
+  _deps/glm-src/glm/mat4x2.hpp \
+  _deps/glm-src/glm/mat4x3.hpp \
+  _deps/glm-src/glm/mat4x4.hpp \
+  _deps/glm-src/glm/matrix.hpp \
+  _deps/glm-src/glm/packing.hpp \
+  _deps/glm-src/glm/simd/platform.h \
+  _deps/glm-src/glm/trigonometric.hpp \
+  _deps/glm-src/glm/vec2.hpp \
+  _deps/glm-src/glm/vec3.hpp \
+  _deps/glm-src/glm/vec4.hpp \
+  _deps/glm-src/glm/vector_relational.hpp \
   D:/Codes/CPP/git/Engine\ -\ Copy/glew/include/GL/glew.h \
   D:/Codes/CPP/git/Engine\ -\ Copy/include/BasicGeometry.h \
   D:/Codes/CPP/git/Engine\ -\ Copy/include/Component.h \
@@ -6848,31 +7313,31 @@ CMakeFiles/program.dir/src/main.cpp.obj: D:/Codes/CPP/git/Engine\ -\ Copy/src/ma
 
 D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/node/emit.h:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/node_data.h:
-
 C:/msys64/ucrt64/include/_timeval.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/ext/aligned_buffer.h:
+D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/node_data.h:
 
 bin/components/cpp/Camera3D.cpp:
 
-C:/msys64/ucrt64/include/wchar.h:
+C:/msys64/ucrt64/include/c++/14.2.0/ext/aligned_buffer.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/tr1/riemann_zeta.tcc:
+C:/msys64/ucrt64/include/c++/14.2.0/bits/functional_hash.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/memory:
 
+C:/msys64/ucrt64/include/wchar.h:
+
 C:/msys64/ucrt64/include/c++/14.2.0/bits/cpp_type_traits.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/bits/functional_hash.h:
+C:/msys64/ucrt64/include/c++/14.2.0/tr1/riemann_zeta.tcc:
+
+C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.tcc:
+
+C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf_iterator.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clzerointrin.h:
-
-C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf_iterator.h:
-
-C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.tcc:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algobase.h:
 
@@ -6890,29 +7355,31 @@ C:/msys64/ucrt64/include/c++/14.2.0/bit:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_rwops.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/ext/numeric_traits.h:
-
 C:/msys64/ucrt64/include/_mingw.h:
+
+C:/msys64/ucrt64/include/c++/14.2.0/ext/numeric_traits.h:
 
 C:/msys64/ucrt64/include/_mingw_mac.h:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/src/Renderer.cpp:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/node/type.h:
-
 C:/msys64/ucrt64/include/_mingw_off_t.h:
+
+D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/node/type.h:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/include/Engine.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/pstl/pstl_config.h:
+_deps/glm-src/glm/ext/vector_double3.hpp:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/hashtable_policy.h:
 
+C:/msys64/ucrt64/include/c++/14.2.0/pstl/pstl_config.h:
+
 C:/msys64/ucrt64/include/c++/14.2.0/bits/exception.h:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_hints.h:
-
 C:/msys64/ucrt64/include/_mingw_stat64.h:
+
+D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_hints.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/algorithm:
 
@@ -6958,43 +7425,45 @@ C:/msys64/ucrt64/include/c++/14.2.0/debug/debug.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/charconv.h:
 
+C:/msys64/ucrt64/include/c++/14.2.0/bits/algorithmfwd.h:
+
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_filesystem.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/tr1/beta_function.tcc:
-
-C:/msys64/ucrt64/include/c++/14.2.0/bits/algorithmfwd.h:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/include/BasicGeometry.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/alloc_traits.h:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_error.h:
-
 C:/msys64/ucrt64/include/c++/14.2.0/bits/align.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.tcc:
+D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_error.h:
+
+_deps/glm-src/glm/detail/_fixes.hpp:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream_insert.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/bits/allocator.h:
+C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.tcc:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_messagebox.h:
+C:/msys64/ucrt64/include/c++/14.2.0/bits/allocator.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnnivlintrin.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_construct.h:
+D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_messagebox.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/nested_exception.h:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/emittermanip.h:
+C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_construct.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/atomic_base.h:
 
+D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/emittermanip.h:
+
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wbnoinvdintrin.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/ext/alloc_traits.h:
-
 C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_string.h:
+
+C:/msys64/ucrt64/include/c++/14.2.0/ext/alloc_traits.h:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/src/Transform.cpp:
 
@@ -7002,13 +7471,13 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/basic_ios.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/concept_check.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512cdintrin.h:
-
 C:/msys64/ucrt64/include/c++/14.2.0/bits/cxxabi_forced.h:
 
-bin/components/h/Camera3D.h:
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512cdintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/cxxabi_init_exception.h:
+
+bin/components/h/Camera3D.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/enable_special_members.h:
 
@@ -7018,49 +7487,59 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cmpccxaddintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/erase_if.h:
 
+C:/msys64/ucrt64/include/c++/14.2.0/bits/functexcept.h:
+
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxifmaintrin.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/bits/functexcept.h:
+_deps/glm-src/glm/ext/matrix_double3x4.hpp:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream.tcc:
 
+C:/msys64/ucrt64/include/c++/14.2.0/bits/gslice.h:
+
 D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/node/node.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/bits/gslice.h:
+C:/msys64/ucrt64/include/c++/14.2.0/bits/istream.tcc:
+
+C:/msys64/ucrt64/include/c++/14.2.0/bits/gslice_array.h:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_gamecontroller.h:
 
 C:/msys64/ucrt64/include/wctype.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/bits/gslice_array.h:
-
-C:/msys64/ucrt64/include/c++/14.2.0/bits/istream.tcc:
-
 C:/msys64/ucrt64/include/c++/14.2.0/bits/hash_bytes.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++allocator.h:
-
 C:/msys64/ucrt64/include/c++/14.2.0/bits/hashtable.h:
+
+C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++allocator.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/indirect_array.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/ios_base.h:
 
-C:/msys64/ucrt64/include/winsdkver.h:
-
 C:/msys64/ucrt64/include/c++/14.2.0/bits/list.tcc:
+
+C:/msys64/ucrt64/include/winsdkver.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/predefined_ops.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xtestintrin.h:
 
+_deps/glm-src/glm/ext/matrix_float3x3.hpp:
+
 C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.h:
+
+_deps/glm-src/glm/detail/qualifier.hpp:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_classes.tcc:
 
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fma4intrin.h:
+
 C:/msys64/ucrt64/include/c++/14.2.0/fstream:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fma4intrin.h:
+_deps/glm-src/glm/ext/matrix_float4x4.hpp:
+
+_deps/glm-src/glm/ext/matrix_double4x3.hpp:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.h:
 
@@ -7074,25 +7553,29 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/mask_array.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/memory_resource.h:
 
+_deps/glm-src/glm/detail/type_mat2x3.inl:
+
 C:/msys64/ucrt64/include/c++/14.2.0/bits/move.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/node_handle.h:
 
-C:/msys64/ucrt64/include/math.h:
+C:/msys64/ucrt64/include/c++/14.2.0/bits/postypes.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/limits:
+C:/msys64/ucrt64/include/math.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/string_view.tcc:
 
-C:/msys64/ucrt64/include/c++/14.2.0/bits/postypes.h:
+C:/msys64/ucrt64/include/c++/14.2.0/limits:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/ptr_traits.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/immintrin.h:
+_deps/glm-src/glm/detail/type_vec1.inl:
+
+C:/msys64/ucrt64/include/c++/14.2.0/bits/range_access.h:
 
 C:/msys64/ucrt64/include/stdio.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/bits/range_access.h:
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/immintrin.h:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_keycode.h:
 
@@ -7100,41 +7583,47 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/refwrap.h:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/node_iterator.h:
 
+_deps/glm-src/glm/simd/platform.h:
+
 C:/msys64/ucrt64/include/c++/14.2.0/bits/requires_hosted.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm3intrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/shared_ptr.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/hresetintrin.h:
+_deps/glm-src/glm/ext/vector_bool4_precision.hpp:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/shared_ptr_atomic.h:
 
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/hresetintrin.h:
+
+_deps/glm-src/glm/gtc/constants.inl:
+
 C:/msys64/ucrt64/include/c++/14.2.0/bits/shared_ptr_base.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vpclmulqdqintrin.h:
-
 C:/msys64/ucrt64/include/c++/14.2.0/cstddef:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vpclmulqdqintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/slice_array.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/specfun.h:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_thread.h:
+C:/msys64/ucrt64/include/c++/14.2.0/bits/sstream.tcc:
 
 C:/msys64/ucrt64/include/c++/14.2.0/tuple:
 
-C:/msys64/ucrt64/include/c++/14.2.0/bits/sstream.tcc:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/waitpkgintrin.h:
+D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_thread.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/std_abs.h:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/node/parse.h:
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/waitpkgintrin.h:
+
+C:/msys64/ucrt64/include/c++/14.2.0/string:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/usermsrintrin.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/string:
+D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/node/parse.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/std_function.h:
 
@@ -7142,11 +7631,13 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_algo.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_bvector.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wmmintrin.h:
+C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_function.h:
 
 C:/msys64/ucrt64/include/corecrt_stdio_config.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_function.h:
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/wmmintrin.h:
+
+_deps/glm-src/glm/geometric.hpp:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_heap.h:
 
@@ -7163,6 +7654,8 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_iterator_base_types.h:
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_list.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_map.h:
+
+_deps/glm-src/glm/ext/matrix_double3x3_precision.hpp:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_multimap.h:
 
@@ -7184,6 +7677,8 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_tempbuf.h:
 
 C:/msys64/ucrt64/include/sys/types.h:
 
+_deps/glm-src/glm/ext/matrix_float3x3_precision.hpp:
+
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_tree.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_uninitialized.h:
@@ -7192,11 +7687,13 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_vector.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bwintrin.h:
 
+_deps/glm-src/glm/detail/type_mat3x4.hpp:
+
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stream_iterator.h:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/iterator.h:
-
 D:/Codes/CPP/git/Engine\ -\ Copy/include/Transform.h:
+
+D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/iterator.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/streambuf.tcc:
 
@@ -7216,23 +7713,29 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/uses_allocator_args.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/bits/utility.h:
+_deps/glm-src/glm/gtc/matrix_transform.hpp:
 
-C:/msys64/ucrt64/include/c++/14.2.0/stdlib.h:
+C:/msys64/ucrt64/include/c++/14.2.0/bits/utility.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/valarray_after.h:
 
-C:/msys64/ucrt64/include/psdk_inc/intrin-impl.h:
+C:/msys64/ucrt64/include/c++/14.2.0/stdlib.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/valarray_array.h:
+
+C:/msys64/ucrt64/include/psdk_inc/intrin-impl.h:
+
+C:/msys64/ucrt64/include/c++/14.2.0/bits/valarray_array.tcc:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmi2intrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx2intrin.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/bits/valarray_array.tcc:
+_deps/glm-src/glm/ext/vector_float4_precision.hpp:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_guid.h:
+
+_deps/glm-src/glm/detail/func_common.inl:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/valarray_before.h:
 
@@ -7242,9 +7745,13 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/version.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/cctype:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/exceptions.h:
+_deps/glm-src/glm/detail/type_mat3x3.inl:
+
+_deps/glm-src/glm/mat2x3.hpp:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm3dnow.h:
+
+D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/exceptions.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/cerrno:
 
@@ -7254,15 +7761,15 @@ C:/msys64/ucrt64/include/c++/14.2.0/string_view:
 
 C:/msys64/ucrt64/include/c++/14.2.0/cmath:
 
-bin/components/cpp/rotation.cpp:
+C:/msys64/ucrt64/include/c++/14.2.0/compare:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxintrin.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmiintrin.h:
+bin/components/cpp/rotation.cpp:
 
 C:/msys64/ucrt64/include/c++/14.2.0/vector:
 
-C:/msys64/ucrt64/include/c++/14.2.0/compare:
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vbmiintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/concepts:
 
@@ -7278,21 +7785,23 @@ C:/msys64/ucrt64/include/c++/14.2.0/cwctype:
 
 C:/msys64/ucrt64/include/c++/14.2.0/debug/assertions.h:
 
+_deps/glm-src/glm/packing.hpp:
+
+C:/msys64/ucrt64/include/c++/14.2.0/exception:
+
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_hidapi.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/rdseedintrin.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/exception:
-
 C:/msys64/ucrt64/include/c++/14.2.0/ext/concurrence.h:
-
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ia32intrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/ext/string_conversions.h:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/node_ref.h:
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ia32intrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/ext/type_traits.h:
+
+D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/node_ref.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/functional:
 
@@ -7300,53 +7809,59 @@ C:/msys64/ucrt64/include/c++/14.2.0/initializer_list:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/src/Light.cpp:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/include/Camera.h:
-
 C:/msys64/ucrt64/include/c++/14.2.0/ios:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchwintrin.h:
+D:/Codes/CPP/git/Engine\ -\ Copy/include/Camera.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/iosfwd:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/iterator_fwd.h:
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchwintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmi2intrin.h:
+
+D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/node/detail/iterator_fwd.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/iostream:
 
 C:/msys64/ucrt64/include/c++/14.2.0/istream:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/ostream_wrapper.h:
+C:/msys64/ucrt64/include/c++/14.2.0/iterator:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdint.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/iterator:
+D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/ostream_wrapper.h:
+
+_deps/glm-src/glm/detail/type_vec2.inl:
+
+_deps/glm-src/glm/ext/matrix_double3x2.hpp:
 
 C:/msys64/ucrt64/include/c++/14.2.0/list:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sm4intrin.h:
 
+C:/msys64/ucrt64/include/c++/14.2.0/map:
+
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqvlintrin.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/map:
+C:/msys64/ucrt64/include/c++/14.2.0/new:
 
 C:/msys64/ucrt64/include/stdlib.h:
 
 C:/msys64/ucrt64/include/corecrt_wstdlib.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/new:
+_deps/glm-src/glm/ext/vector_float2_precision.hpp:
+
+C:/msys64/ucrt64/include/c++/14.2.0/ostream:
 
 C:/msys64/ucrt64/include/sys/timeb.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/atomic_word.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/ostream:
-
 C:/msys64/ucrt64/include/c++/14.2.0/pstl/execution_defs.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchiintrin.h:
-
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx5124fmapsintrin.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/prfchiintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/pstl/glue_algorithm_defs.h:
 
@@ -7372,9 +7887,15 @@ D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_system.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/tr1/gamma.tcc:
 
+_deps/glm-src/glm/ext/vector_int2.hpp:
+
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lzcntintrin.h:
 
+_deps/glm-src/glm/detail/func_matrix.inl:
+
 C:/msys64/ucrt64/include/c++/14.2.0/tr1/legendre_function.tcc:
+
+C:/msys64/ucrt64/include/c++/14.2.0/cassert:
 
 C:/msys64/ucrt64/include/c++/14.2.0/tr1/modified_bessel_func.tcc:
 
@@ -7388,21 +7909,23 @@ C:/msys64/ucrt64/include/c++/14.2.0/tr1/special_function_util.h:
 
 C:/msys64/ucrt64/include/inttypes.h:
 
+_deps/glm-src/glm/mat2x2.hpp:
+
 C:/msys64/ucrt64/include/c++/14.2.0/type_traits:
 
 C:/msys64/ucrt64/include/c++/14.2.0/typeinfo:
 
 C:/msys64/ucrt64/include/c++/14.2.0/unordered_map:
 
-C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr-default.h:
-
 C:/msys64/ucrt64/include/c++/14.2.0/utility:
+
+C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr-default.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/valarray:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pkuintrin.h:
-
 C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pkuintrin.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++locale.h:
 
@@ -7418,27 +7941,39 @@ bin/components/cpp/FlatLight.cpp:
 
 C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pconfigintrin.h:
-
 C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h:
 
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pconfigintrin.h:
+
+_deps/glm-src/glm/detail/type_mat4x2.inl:
+
 C:/msys64/ucrt64/include/corecrt.h:
+
+C:/msys64/ucrt64/include/corecrt_startup.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/float.h:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_config_windows.h:
 
-C:/msys64/ucrt64/include/corecrt_startup.h:
+_deps/glm-src/glm/ext/matrix_transform.inl:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/node/convert.h:
-
-D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_quit.h:
+_deps/glm-src/glm/ext/matrix_double4x2.hpp:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/keylockerintrin.h:
 
+D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/node/convert.h:
+
+_deps/glm-src/glm/ext/vector_double4.hpp:
+
 C:/msys64/ucrt64/include/crtdefs.h:
 
+D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_quit.h:
+
 C:/msys64/ucrt64/include/ctype.h:
+
+_deps/glm-src/glm/ext/vector_float2.hpp:
+
+_deps/glm-src/glm/ext/matrix_clip_space.inl:
 
 C:/msys64/ucrt64/include/errno.h:
 
@@ -7446,9 +7981,9 @@ C:/msys64/ucrt64/include/intrin.h:
 
 C:/msys64/ucrt64/include/limits.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/enqcmdintrin.h:
-
 C:/msys64/ucrt64/include/locale.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/enqcmdintrin.h:
 
 C:/msys64/ucrt64/include/malloc.h:
 
@@ -7456,9 +7991,9 @@ C:/msys64/ucrt64/include/process.h:
 
 C:/msys64/ucrt64/include/pthread.h:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_power.h:
-
 C:/msys64/ucrt64/include/pthread_signal.h:
+
+D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_power.h:
 
 C:/msys64/ucrt64/include/pthread_time.h:
 
@@ -7467,6 +8002,8 @@ C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/basic_file.h:
 C:/msys64/ucrt64/include/pthread_unistd.h:
 
 C:/msys64/ucrt64/include/sdkddkver.h:
+
+_deps/glm-src/glm/detail/type_half.hpp:
 
 C:/msys64/ucrt64/include/sdks/_mingw_ddk.h:
 
@@ -7479,6 +8016,8 @@ C:/msys64/ucrt64/include/sec_api/stdlib_s.h:
 C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h:
 
 C:/msys64/ucrt64/include/sec_api/wchar_s.h:
+
+_deps/glm-src/glm/ext/vector_int4.hpp:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_metal.h:
 
@@ -7504,21 +8043,25 @@ C:/msys64/ucrt64/include/vadefs.h:
 
 C:/msys64/ucrt64/include/winapifamily.h:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_haptic.h:
-
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/adxintrin.h:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_keyboard.h:
+D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_haptic.h:
+
+_deps/glm-src/glm/ext/matrix_double2x3_precision.hpp:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/ammintrin.h:
 
+D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_keyboard.h:
+
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxbf16intrin.h:
+
+_deps/glm-src/glm/integer.hpp:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxcomplexintrin.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h:
-
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxint8intrin.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdarg.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/amxtileintrin.h:
 
@@ -7530,31 +8073,35 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16intrin.h:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_log.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16intrin.h:
-
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bf16vlintrin.h:
 
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16intrin.h:
+
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgintrin.h:
+
+_deps/glm-src/glm/mat3x3.hpp:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgvlintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/popcntintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pmmintrin.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512bitalgvlintrin.h:
-
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512dqintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512erintrin.h:
 
-bin/components/h/PointLight.h:
+_deps/glm-src/glm/ext/matrix_float3x2.hpp:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fintrin.h:
 
+bin/components/h/PointLight.h:
+
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512fp16vlintrin.h:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/node/iterator.h:
-
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vp2intersectintrin.h:
+
+D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/node/iterator.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512ifmaintrin.h:
 
@@ -7578,11 +8125,13 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vnniintrin.h:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/src/Settings.cpp:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitintrin.h:
-
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avx512vpopcntdqintrin.h:
 
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitintrin.h:
+
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxneconvertintrin.h:
+
+_deps/glm-src/glm/ext/matrix_float2x4.hpp:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/avxvnniint16intrin.h:
 
@@ -7593,6 +8142,10 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/bmiintrin.h:
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cetintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/cldemoteintrin.h:
+
+C:/msys64/ucrt64/include/c++/14.2.0/cfloat:
+
+_deps/glm-src/glm/trigonometric.hpp:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/clflushoptintrin.h:
 
@@ -7608,8 +8161,6 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/f16cintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fmaintrin.h:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/src/InputHandler.cpp:
-
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/fxsrintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/gfniintrin.h:
@@ -7619,6 +8170,10 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h:
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/lwpintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h:
+
+_deps/glm-src/glm/gtc/constants.hpp:
+
+_deps/glm-src/glm/ext/scalar_int_sized.hpp:
 
 C:/msys64/ucrt64/include/c++/14.2.0/deque:
 
@@ -7638,11 +8193,17 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/serializeintrin.h:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_joystick.h:
 
+_deps/glm-src/glm/ext/matrix_double2x3.hpp:
+
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sgxintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/sha512intrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/shaintrin.h:
+
+_deps/glm-src/glm/ext/matrix_float4x4_precision.hpp:
+
+_deps/glm-src/glm/ext/matrix_double4x3_precision.hpp:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/smmintrin.h:
 
@@ -7650,19 +8211,27 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h:
 
+_deps/glm-src/glm/detail/type_mat4x4.hpp:
+
+_deps/glm-src/glm/mat3x2.hpp:
+
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tbmintrin.h:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_sensor.h:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_loadso.h:
-
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/tsxldtrkintrin.h:
+
+D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_loadso.h:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/emitterdef.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/uintrintrin.h:
 
+_deps/glm-src/glm/matrix.hpp:
+
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/vaesintrin.h:
+
+_deps/glm-src/glm/ext/matrix_projection.inl:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/x86intrin.h:
 
@@ -7670,17 +8239,17 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xmmintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xopintrin.h:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/src/GameObject.cpp:
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavecintrin.h:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_cpuinfo.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavecintrin.h:
-
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsaveoptintrin.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavesintrin.h:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/binary.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xsavesintrin.h:
+_deps/glm-src/glm/ext/vector_int4_sized.hpp:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_platform.h:
 
@@ -7690,13 +8259,19 @@ D:/Codes/CPP/git/Engine\ -\ Copy/include/ComponentFactory.h:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL.h:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/null.h:
+_deps/glm-src/glm/detail/type_mat2x4.hpp:
+
+_deps/glm-src/glm/detail/setup.hpp:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_assert.h:
+
+D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/null.h:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/include/Settings.h:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_atomic.h:
+
+_deps/glm-src/glm/detail/type_mat2x4.inl:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_audio.h:
 
@@ -7708,7 +8283,11 @@ D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_endian.h:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_events.h:
 
+_deps/glm-src/glm/detail/type_mat4x3.inl:
+
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_gesture.h:
+
+_deps/glm-src/glm/detail/type_vec3.inl:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_image.h:
 
@@ -7718,23 +8297,33 @@ D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_main.h:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_mutex.h:
 
-generated_registry.cpp:
+_deps/glm-src/glm/ext/vector_int2_sized.hpp:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_pixels.h:
 
+_deps/glm-src/glm/detail/compute_vector_relational.hpp:
+
+generated_registry.cpp:
+
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_rect.h:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/emitterstyle.h:
+_deps/glm-src/glm/detail/type_mat4x4.inl:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_scancode.h:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_surface.h:
+D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/emitterstyle.h:
 
-bin/components/cpp/r.cpp:
+_deps/glm-src/glm/ext/matrix_float2x2_precision.hpp:
+
+D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_surface.h:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_timer.h:
 
+bin/components/cpp/r.cpp:
+
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_touch.h:
+
+_deps/glm-src/glm/ext/matrix_float2x3_precision.hpp:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_version.h:
 
@@ -7756,7 +8345,11 @@ D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/noexcept.h:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/parser.h:
 
+_deps/glm-src/glm/detail/func_integer.inl:
+
 D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/stlemitter.h:
+
+_deps/glm-src/glm/ext/vector_int3.hpp:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/traits.h:
 
@@ -7765,6 +8358,8 @@ D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/yaml.h:
 bin/components/cpp/PointLight.cpp:
 
 bin/components/h/r.h:
+
+_deps/glm-src/glm/detail/type_mat4x3.hpp:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/unordered_set.h:
 
@@ -7778,32 +8373,206 @@ D:/Codes/CPP/git/Engine\ -\ Copy/src/Camera.cpp:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/src/Component.cpp:
 
+_deps/glm-src/glm/ext/matrix_float4x3.hpp:
+
+_deps/glm-src/glm/ext/matrix_double4x4.hpp:
+
 D:/Codes/CPP/git/Engine\ -\ Copy/src/Engine.cpp:
 
 C:/msys64/ucrt64/include/GL/gl.h:
 
 C:/msys64/ucrt64/include/GL/glu.h:
 
+C:/msys64/ucrt64/include/assert.h:
+
 C:/msys64/ucrt64/include/c++/14.2.0/bits/deque.tcc:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_deque.h:
 
+C:/msys64/ucrt64/include/c++/14.2.0/cstdint:
+
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_queue.h:
 
+C:/msys64/ucrt64/include/c++/14.2.0/climits:
+
 C:/msys64/ucrt64/include/c++/14.2.0/queue:
+
+_deps/glm-src/glm/glm.hpp:
+
+C:/msys64/ucrt64/include/float.h:
+
+_deps/glm-src/glm/common.hpp:
+
+_deps/glm-src/glm/detail/_vectorize.hpp:
+
+_deps/glm-src/glm/detail/compute_common.hpp:
+
+_deps/glm-src/glm/detail/func_exponential.inl:
+
+_deps/glm-src/glm/detail/func_geometric.inl:
+
+_deps/glm-src/glm/detail/func_packing.inl:
+
+_deps/glm-src/glm/detail/func_trigonometric.inl:
+
+_deps/glm-src/glm/detail/func_vector_relational.inl:
+
+_deps/glm-src/glm/detail/type_half.inl:
+
+_deps/glm-src/glm/detail/type_mat2x2.hpp:
+
+_deps/glm-src/glm/detail/type_mat2x2.inl:
+
+_deps/glm-src/glm/detail/type_mat2x3.hpp:
+
+D:/Codes/CPP/git/Engine\ -\ Copy/src/main.cpp:
+
+_deps/glm-src/glm/detail/type_mat3x2.hpp:
+
+_deps/glm-src/glm/detail/type_mat3x2.inl:
+
+_deps/glm-src/glm/detail/type_mat3x3.hpp:
+
+_deps/glm-src/glm/detail/type_mat3x4.inl:
+
+_deps/glm-src/glm/detail/type_mat4x2.hpp:
+
+_deps/glm-src/glm/detail/type_vec1.hpp:
+
+_deps/glm-src/glm/detail/type_vec2.hpp:
+
+_deps/glm-src/glm/detail/type_vec3.hpp:
+
+_deps/glm-src/glm/detail/type_vec4.hpp:
+
+_deps/glm-src/glm/detail/type_vec4.inl:
+
+_deps/glm-src/glm/exponential.hpp:
+
+_deps/glm-src/glm/ext/matrix_clip_space.hpp:
+
+_deps/glm-src/glm/ext/matrix_double2x2.hpp:
+
+_deps/glm-src/glm/ext/matrix_double2x2_precision.hpp:
+
+_deps/glm-src/glm/ext/matrix_double2x4.hpp:
+
+_deps/glm-src/glm/ext/matrix_double2x4_precision.hpp:
+
+_deps/glm-src/glm/ext/matrix_double3x2_precision.hpp:
+
+_deps/glm-src/glm/ext/matrix_double3x3.hpp:
+
+_deps/glm-src/glm/ext/matrix_double3x4_precision.hpp:
+
+_deps/glm-src/glm/ext/matrix_double4x2_precision.hpp:
+
+_deps/glm-src/glm/ext/matrix_float4x3_precision.hpp:
+
+_deps/glm-src/glm/ext/matrix_double4x4_precision.hpp:
+
+_deps/glm-src/glm/ext/matrix_float2x2.hpp:
+
+_deps/glm-src/glm/ext/matrix_float2x3.hpp:
+
+_deps/glm-src/glm/ext/matrix_float2x4_precision.hpp:
+
+_deps/glm-src/glm/ext/matrix_float3x2_precision.hpp:
+
+_deps/glm-src/glm/ext/matrix_float3x4.hpp:
+
+_deps/glm-src/glm/ext/matrix_float3x4_precision.hpp:
+
+_deps/glm-src/glm/ext/vector_uint2_sized.hpp:
+
+_deps/glm-src/glm/ext/matrix_float4x2.hpp:
+
+_deps/glm-src/glm/ext/matrix_float4x2_precision.hpp:
+
+_deps/glm-src/glm/ext/matrix_projection.hpp:
+
+_deps/glm-src/glm/ext/matrix_transform.hpp:
+
+_deps/glm-src/glm/ext/scalar_constants.hpp:
+
+_deps/glm-src/glm/ext/scalar_constants.inl:
+
+_deps/glm-src/glm/ext/scalar_uint_sized.hpp:
+
+_deps/glm-src/glm/ext/vector_bool2.hpp:
+
+_deps/glm-src/glm/ext/vector_bool2_precision.hpp:
+
+_deps/glm-src/glm/ext/vector_bool3.hpp:
+
+_deps/glm-src/glm/ext/vector_bool3_precision.hpp:
+
+_deps/glm-src/glm/ext/vector_bool4.hpp:
+
+_deps/glm-src/glm/ext/vector_uint3_sized.hpp:
+
+_deps/glm-src/glm/ext/vector_double2.hpp:
+
+_deps/glm-src/glm/ext/vector_double2_precision.hpp:
+
+_deps/glm-src/glm/ext/vector_double3_precision.hpp:
+
+_deps/glm-src/glm/ext/vector_double4_precision.hpp:
+
+_deps/glm-src/glm/ext/vector_float3.hpp:
+
+_deps/glm-src/glm/ext/vector_float3_precision.hpp:
+
+_deps/glm-src/glm/ext/vector_float4.hpp:
+
+_deps/glm-src/glm/ext/vector_int3_sized.hpp:
+
+_deps/glm-src/glm/ext/vector_uint2.hpp:
+
+_deps/glm-src/glm/ext/vector_uint3.hpp:
+
+_deps/glm-src/glm/ext/vector_uint4.hpp:
+
+D:/Codes/CPP/git/Engine\ -\ Copy/include/Window.h:
+
+_deps/glm-src/glm/ext/vector_uint4_sized.hpp:
+
+_deps/glm-src/glm/fwd.hpp:
+
+_deps/glm-src/glm/gtc/matrix_transform.inl:
+
+_deps/glm-src/glm/gtx/transform.hpp:
+
+_deps/glm-src/glm/gtx/transform.inl:
+
+_deps/glm-src/glm/mat2x4.hpp:
+
+_deps/glm-src/glm/mat3x4.hpp:
+
+_deps/glm-src/glm/mat4x2.hpp:
+
+_deps/glm-src/glm/mat4x3.hpp:
+
+_deps/glm-src/glm/mat4x4.hpp:
+
+_deps/glm-src/glm/vec2.hpp:
+
+_deps/glm-src/glm/vec3.hpp:
+
+_deps/glm-src/glm/vec4.hpp:
+
+_deps/glm-src/glm/vector_relational.hpp:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/glew/include/GL/glew.h:
 
 D:/Codes/CPP/git/Engine\ -\ Copy/include/Scene.h:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/include/Window.h:
+D:/Codes/CPP/git/Engine\ -\ Copy/src/GameObject.cpp:
 
-C:/msys64/ucrt64/include/float.h:
-
-D:/Codes/CPP/git/Engine\ -\ Copy/src/Scene.cpp:
+D:/Codes/CPP/git/Engine\ -\ Copy/src/InputHandler.cpp:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/fstream.tcc:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/src/Window.cpp:
+D:/Codes/CPP/git/Engine\ -\ Copy/src/Scene.cpp:
 
-D:/Codes/CPP/git/Engine\ -\ Copy/src/main.cpp:
+D:/Codes/CPP/git/Engine\ -\ Copy/src/Window.cpp:

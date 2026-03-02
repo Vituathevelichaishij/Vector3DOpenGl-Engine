@@ -30,6 +30,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/GNU-CXX.cmake"
   "C:/Program Files/CMake/share/cmake-4.1/Modules/Compiler/GNU.cmake"
   "C:/Program Files/CMake/share/cmake-4.1/Modules/DartConfiguration.tcl.in"
+  "C:/Program Files/CMake/share/cmake-4.1/Modules/ExternalProject/shared_internal_commands.cmake"
+  "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent.cmake"
+  "C:/Program Files/CMake/share/cmake-4.1/Modules/FetchContent/CMakeLists.cmake.in"
+  "C:/Program Files/CMake/share/cmake-4.1/Modules/FindGit.cmake"
   "C:/Program Files/CMake/share/cmake-4.1/Modules/FindOpenGL.cmake"
   "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPackageHandleStandardArgs.cmake"
   "C:/Program Files/CMake/share/cmake-4.1/Modules/FindPackageMessage.cmake"
@@ -65,6 +69,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/4.1.2/CMakeSystem.cmake"
   "CMakeFiles/VerifyGlobs.cmake"
   "CMakeFiles/cmake.verify_globs"
+  "_deps/glm-src/CMakeLists.txt"
+  "_deps/glm-src/glm/CMakeLists.txt"
   "D:/Codes/CPP/git/Engine - Copy/glew/build/cmake/CMakeLists.txt"
   "D:/Codes/CPP/git/Engine - Copy/glew/glew.pc.in"
   "D:/Codes/CPP/git/Engine - Copy/yaml-cpp-0.8.0/CMakeLists.txt"
@@ -82,6 +88,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "_deps/glm-subbuild/CMakeLists.txt"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "yaml-cpp-0.8.0/DartConfiguration.tcl"
   "yaml-cpp-0.8.0/CMakeFiles/CTestScript.cmake"
@@ -93,6 +100,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "yaml-cpp-0.8.0/util/CMakeFiles/CMakeDirectoryInformation.cmake"
   "glew/build/cmake/glew.pc"
   "glew/build/cmake/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "_deps/glm-build/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "_deps/glm-build/glm/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -137,4 +146,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "glew/build/cmake/CMakeFiles/glew_s.dir/DependInfo.cmake"
   "glew/build/cmake/CMakeFiles/glewinfo.dir/DependInfo.cmake"
   "glew/build/cmake/CMakeFiles/visualinfo.dir/DependInfo.cmake"
+  "_deps/glm-build/glm/CMakeFiles/glm.dir/DependInfo.cmake"
   )

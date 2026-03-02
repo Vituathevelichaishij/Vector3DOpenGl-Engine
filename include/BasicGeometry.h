@@ -117,6 +117,8 @@ Matrix4x4 getPointAtMatrix(Vector3D const &pos, Vector3D  const &target, Vector3
 
 Matrix4x4 getPointAtMatrix(Vector3D const &pos, Vector3D  const &target, Vector3D const &up);
 
+Matrix4x4 getIdentMatrix();
+
 Vector3D vectorXplainIntersec(Vector3D const& planeP,Vector3D const& N,Vector3D const& lineStart,Vector3D const& lineEnd, float& t);
 
 float dotProduct(Vector3D const& a, Vector3D const& b);

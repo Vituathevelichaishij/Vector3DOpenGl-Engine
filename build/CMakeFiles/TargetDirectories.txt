@@ -62,3 +62,16 @@ D:/Codes/CPP/git/Engine - Copy/build/glew/build/cmake/CMakeFiles/list_install_co
 D:/Codes/CPP/git/Engine - Copy/build/glew/build/cmake/CMakeFiles/install.dir
 D:/Codes/CPP/git/Engine - Copy/build/glew/build/cmake/CMakeFiles/install/local.dir
 D:/Codes/CPP/git/Engine - Copy/build/glew/build/cmake/CMakeFiles/install/strip.dir
+D:/Codes/CPP/git/Engine - Copy/build/_deps/glm-build/CMakeFiles/edit_cache.dir
+D:/Codes/CPP/git/Engine - Copy/build/_deps/glm-build/CMakeFiles/rebuild_cache.dir
+D:/Codes/CPP/git/Engine - Copy/build/_deps/glm-build/CMakeFiles/list_install_components.dir
+D:/Codes/CPP/git/Engine - Copy/build/_deps/glm-build/CMakeFiles/install.dir
+D:/Codes/CPP/git/Engine - Copy/build/_deps/glm-build/CMakeFiles/install/local.dir
+D:/Codes/CPP/git/Engine - Copy/build/_deps/glm-build/CMakeFiles/install/strip.dir
+D:/Codes/CPP/git/Engine - Copy/build/_deps/glm-build/glm/CMakeFiles/glm.dir
+D:/Codes/CPP/git/Engine - Copy/build/_deps/glm-build/glm/CMakeFiles/edit_cache.dir
+D:/Codes/CPP/git/Engine - Copy/build/_deps/glm-build/glm/CMakeFiles/rebuild_cache.dir
+D:/Codes/CPP/git/Engine - Copy/build/_deps/glm-build/glm/CMakeFiles/list_install_components.dir
+D:/Codes/CPP/git/Engine - Copy/build/_deps/glm-build/glm/CMakeFiles/install.dir
+D:/Codes/CPP/git/Engine - Copy/build/_deps/glm-build/glm/CMakeFiles/install/local.dir
+D:/Codes/CPP/git/Engine - Copy/build/_deps/glm-build/glm/CMakeFiles/install/strip.dir

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "../../../bin/glew32d.dll"
-  "../../../bin/glew32d.dll.manifest"
-  "../../../bin/glew32d.pdb"
-  "../../../lib/libglew32d.dll.a"
+  "../../../bin/glew32.dll"
+  "../../../bin/glew32.dll.manifest"
+  "../../../bin/glew32.pdb"
+  "../../../lib/libglew32.dll.a"
   "CMakeFiles/glew.dir/__/__/src/glew.c.obj"
   "CMakeFiles/glew.dir/__/__/src/glew.c.obj.d"
   "CMakeFiles/glew.dir/__/glew.rc.obj"

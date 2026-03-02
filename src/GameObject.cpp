@@ -57,7 +57,6 @@ void GameObject::update(Uint32 dt){
 void GameObject::addComponent(YAML::Node const& data){
     auto comp = ComponentFactory::init().create(data["name"].as<std::string>());
 
-
     if(!comp) return;
     comp->owner=this;
     comp->init(data);

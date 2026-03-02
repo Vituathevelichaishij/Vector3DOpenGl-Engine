@@ -428,8 +428,8 @@ CMakeFiles/program.dir/src/Renderer.cpp.obj: \
  D:/Codes/CPP/git/Engine\ -\ Copy/yaml-cpp-0.8.0/include/yaml-cpp/node/emit.h \
  D:/Codes/CPP/git/Engine\ -\ Copy/include/Window.h \
  C:/msys64/ucrt64/include/c++/14.2.0/iostream \
- D:/Codes/CPP/git/Engine\ -\ Copy/include/BasicGeometry.h \
  D:/Codes/CPP/git/Engine\ -\ Copy/include/Transform.h \
+ D:/Codes/CPP/git/Engine\ -\ Copy/include/BasicGeometry.h \
  D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL_image.h \
  D:/Codes/CPP/git/Engine\ -\ Copy/include/SDL2/SDL.h \
  D:/Codes/CPP/git/Engine\ -\ Copy/include/Scene.h \
@@ -438,7 +438,166 @@ CMakeFiles/program.dir/src/Renderer.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/functional \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/std_function.h \
  D:/Codes/CPP/git/Engine\ -\ Copy/include/Component.h \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/glm.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/_fixes.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/setup.hpp \
+ C:/msys64/ucrt64/include/c++/14.2.0/cassert \
+ C:/msys64/ucrt64/include/assert.h \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/simd/platform.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/cstdint \
+ C:/msys64/ucrt64/include/c++/14.2.0/climits \
+ C:/msys64/ucrt64/include/c++/14.2.0/cfloat \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/float.h \
+ C:/msys64/ucrt64/include/float.h \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/fwd.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/qualifier.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/setup.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/vec2.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_bool2.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_vec2.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_vec2.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/compute_vector_relational.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_bool2_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_float2.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_float2_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_double2.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_double2_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_int2.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_int2_sized.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/scalar_int_sized.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/setup.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_uint2.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_uint2_sized.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/scalar_uint_sized.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/vec3.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_bool3.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_vec3.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_vec3.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_bool3_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_float3.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_float3_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_double3.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_double3_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_int3.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_int3_sized.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_uint3.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_uint3_sized.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/vec4.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_bool4.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_vec4.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_vec4.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_bool4_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_float4.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_float4_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_double4.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_double4_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_int4.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_int4_sized.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_uint4.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/vector_uint4_sized.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/mat2x2.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_double2x2.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_mat2x2.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_mat2x2.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/matrix.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/mat2x3.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_double2x3.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_mat2x3.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_mat2x3.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_double2x3_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_float2x3.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_float2x3_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/mat2x4.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_double2x4.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_mat2x4.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_mat2x4.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_double2x4_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_float2x4.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_float2x4_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/mat3x2.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_double3x2.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_mat3x2.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_mat3x2.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_double3x2_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_float3x2.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_float3x2_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/mat3x3.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_double3x3.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_mat3x3.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_mat3x3.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_double3x3_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_float3x3.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_float3x3_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/mat3x4.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_double3x4.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_mat3x4.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_mat3x4.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_double3x4_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_float3x4.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_float3x4_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/mat4x2.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_double4x2.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_mat4x2.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_mat4x2.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_double4x2_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_float4x2.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_float4x2_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/mat4x3.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_double4x3.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_mat4x3.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_mat4x3.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_double4x3_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_float4x3.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_float4x3_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/mat4x4.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_double4x4.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_mat4x4.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_mat4x4.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_double4x4_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_float4x4.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_float4x4_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/func_matrix.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/geometric.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/func_geometric.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/exponential.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_vec1.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_vec1.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/func_exponential.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/vector_relational.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/func_vector_relational.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/_vectorize.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/common.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/func_common.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/compute_common.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_double2x2_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_float2x2.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_float2x2_precision.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/trigonometric.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/func_trigonometric.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/packing.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/func_packing.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_half.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/type_half.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/integer.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/detail/func_integer.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/gtc/matrix_transform.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_projection.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/gtc/constants.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/scalar_constants.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/scalar_constants.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/gtc/constants.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_projection.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_clip_space.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_clip_space.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_transform.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/ext/matrix_transform.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/gtc/matrix_transform.inl \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/gtx/transform.hpp \
+ D:/Codes/CPP/git/Engine\ -\ Copy/build/_deps/glm-src/glm/gtx/transform.inl \
  D:/Codes/CPP/git/Engine\ -\ Copy/include/Camera.h \
  D:/Codes/CPP/git/Engine\ -\ Copy/include/Light.h \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/float.h \
- C:/msys64/ucrt64/include/float.h
+ C:/msys64/ucrt64/include/c++/14.2.0/fstream \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/codecvt.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/basic_file.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++io.h \
+ C:/msys64/ucrt64/include/c++/14.2.0/bits/fstream.tcc
