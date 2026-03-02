@@ -16,23 +16,11 @@ A lightweight custom **3D game engine** written in **C++** using **SDL2**, featu
 - Instantiate complex objects with one call  
 - Supports hierarchical objects  
 
-### 💡 Lighting System
-- Directional light  
-- Point light  
-- Basic shading model (Lambert/Phong depending on implementation)  
-- Per-vertex / per-pixel lighting support  
 
 ### 📐 3D Math Core
 - Custom Vector and Matrix math  
 - Transform system (position, rotation, scale)  
 - Camera projection (perspective)  
-
-### 🖥 Software Renderer
-- Triangle rasterization  
-- Z-buffer (depth testing)  
-- Texture mapping  
-- Back-face culling  
-- Clipping against view frustum  
 
 ### 📷 Camera System
 - Free-fly camera  
@@ -52,6 +40,7 @@ A lightweight custom **3D game engine** written in **C++** using **SDL2**, featu
 
 - **C++17 or newer**
 - **SDL2**
+- **OpenGL 3.3**
 - **CMake 3.6+**
 
 ---
